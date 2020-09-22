@@ -13,8 +13,8 @@ function Header() {
           alt=""
         />
       </Link>
-
       {/* search box */}
+      <input type="text" className="header__searchInput"/>
       {/* 3 links */}
       {/* Basket Icon with number */}
     </nav>

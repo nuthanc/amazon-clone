@@ -1,3 +1,15 @@
 # Amazon Clone 
 
 * Following Youtube tutorial of Clever Programmer
+* Material UI library
+
+npx create-react-app amazon-clone
+Delete unwanted files
+Clear the css and * to all elements, give Margin: 0
+React-router: BrowserRouter as Router, Route path, Link, Switch
+Default Route last
+Header: Nav element
+  Logo Img: width, margin
+  Searchbar
+  More links: indicating auth
+  Basket
