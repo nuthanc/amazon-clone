@@ -1,5 +1,10 @@
 .header {
   background-color: #131921;
+  display: flex;
+  /* MSG #1 Adding flex property makes them appear side by side instead of on top of one another */
+  align-items: center;
+  /* MSG #2 For proper centering */
+  
 }
 
 .header__logo {
@@ -8,7 +13,20 @@
   margin-top: 18px;
 }
 
+.header__search {
+  display: flex;
+  /* MSG #3 Need to add this to make the searchIcon and searchInput appear side to side centered properly */
+}
+
 .header__searchInput {
-  width: 70%;
-  
+  height: 12px;
+  /* MSG #4 Only adding height makes the search icon goofy. Need to add padding to make the text entered inside it center */
+  padding: 10px;
+  border: none;
+  width: 100%;
+  /* MSG #5 Width of 100% doesn't make any difference in display: flex */
+}
+
+.header__searchIcon {
+  background-color: #F3A847;
 }

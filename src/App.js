@@ -14,10 +14,8 @@ function App() {
           <h1>This is the login page</h1>
         </Route>
         <Route path="/">
-          <div className="app">
-            <Header />
-            <h1>Let's build an Amazon CLONE WITH React JS</h1>
-          </div>
+          <Header />
+          <h1>Let's build an Amazon CLONE WITH React JS</h1>
         </Route>
       </Switch>
     </Router>
