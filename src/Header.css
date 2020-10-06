@@ -4,11 +4,12 @@
   /* MSG #1 Adding flex property makes them appear side by side instead of on top of one another */
   align-items: center;
   /* MSG #2 For proper centering */
-  
 }
 
 .header__logo {
   width: 100px;
+  /* MSG #9 If the screen resizes, we want the logo to have the same aspect ration */
+  object-fit: contain;
   margin: 0 20px;
   margin-top: 18px;
 }
@@ -16,6 +17,8 @@
 .header__search {
   display: flex;
   /* MSG #3 Need to add this to make the searchIcon and searchInput appear side to side centered properly */
+  flex: 1;
+  /* MSG #8 flex 1, take as much space as possible */
 }
 
 .header__searchInput {
@@ -28,5 +31,34 @@
 }
 
 .header__searchIcon {
-  background-color: #F3A847;
+  background-color: #f3a847;
+  /* MSG #6 Search icon is too small compared to the searchInput, so adding a little bit of padding */
+  padding: 5px;
+  /* MSG #7Height may change when resizing, to make it constant adding height and making it important as searchIcon comes with its own set of CSS */
+  height: 22px !important;
+}
+
+.header__nav {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.header__link{
+  color: white;
+  text-decoration: none;
+}
+
+.header__option {
+  display: flex;
+  flex-direction: column;
+  margin: 0 10px;
+} 
+
+.header__optionLineOne {
+  font-size: 13px;
+}
+
+.header__optionLineTwo {
+  font-size: 14px;
+  font-weight: 800;
 }
