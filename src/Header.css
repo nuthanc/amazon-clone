@@ -3,6 +3,11 @@
   display: flex;
   /* MSG #1 Adding flex property makes them appear side by side instead of on top of one another */
   align-items: center;
+  /* MSG #10 The next 2 lines to make Amazon header fixed */
+  position: sticky;
+  top: 0;
+  /* MSG #11 Z positive index is coming out of the screen */
+  z-index: 100;
   /* MSG #2 For proper centering */
 }
 
@@ -61,4 +66,13 @@
 .header__optionLineTwo {
   font-size: 14px;
   font-weight: 800;
+}
+
+.header__optionBasket {
+  display: flex;
+  align-items: center;
+}
+
+.header__basketCount {
+  margin: 0 10px;
 }
