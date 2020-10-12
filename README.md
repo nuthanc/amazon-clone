@@ -3,6 +3,7 @@
 * Following Youtube tutorial of Clever Programmer
 * Material UI library
 
+```txt
 npx create-react-app amazon-clone
 Delete unwanted files
 Clear the css and * to all elements, give Margin: 0
@@ -13,3 +14,6 @@ Header: Nav element
   Searchbar
   More links: indicating auth
   Basket
+```
+
+* Throw everything in a div container when you want to style it

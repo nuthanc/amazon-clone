@@ -1,5 +1,12 @@
+.home {
+  /* MSG Add max-width so that it won't look junky in huge screens */
+  max-width: 1500px;
+  margin: auto;
+}
+
 .home__image {
   width: 100%;
   /* MSG The below is for gradient, from top to bottom, make opacity of the color 1 to none */
   mask-image: linear-gradient(to bottom, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0));
+  
 }
