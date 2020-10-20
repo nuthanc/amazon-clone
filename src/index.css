@@ -1,4 +1,6 @@
 body {
+  background-color: #EAEDED;
+  /* MSG The above gives the color between the products */
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',

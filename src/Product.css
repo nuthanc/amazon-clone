@@ -1,3 +1,43 @@
+.product {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-end;
+  margin: 10px;
+  padding: 20px;
+  width: 100%;
+  /* MSG After doing column, the image looks horrible */
+  max-height: 400px;
+  min-width: 100px;
+  /* MSG The above 2 for handling resizing issues */
+  z-index: 1;
+  background-color: white;
+}
+
+.product__info {
+  height: 100px;
+  margin-bottom: 15px;
+}
+
+.product__price {
+  margin-top: 5px;
+}
+
 .product__rating {
   display: flex;
+}
+
+/* MSG Targeting the direct child of product */
+.product > img {
+  width: 100%;
+  max-height: 200px;
+  /* MSG The above 2 screws up the aspect ration and to fix that we give object-fit property; */
+  object-fit: contain;
+  margin-bottom: 15px;
+}
+
+.product > button {
+  background-color: #f0c14b;
+  border: 1px solid;
+  border-color: #a88734 #9c7e31 #846129;
 }
