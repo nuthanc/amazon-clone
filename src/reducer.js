@@ -11,7 +11,7 @@ function reducer(state, action) {
       // Logic for removing item from basket
       break;
     default:
-      return state;
+      return state; 
   }
 }
 
