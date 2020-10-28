@@ -17,3 +17,8 @@ Header: Nav element
 ```
 
 * Throw everything in a div container when you want to style it
+
+### Context system
+* StateProvider.js for setting up the Context, which acts as Data layer
+* In index.js, wrap entire App with StateProvider
+* children in StateProvider is now the App component
