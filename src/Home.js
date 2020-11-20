@@ -22,7 +22,7 @@ const Home = () => {
         <Product
           id="12303131"
           title="Mi Notebook 14 Intel Core i5-10210U 10th Gen Thin and Light Laptop(8GB/256GB SSD/Windows 10/Intel UHD Graphics/Silver/1.5Kg), XMA1901-FC+Webcam"
-          price={191.96}
+          price={1200.96}
           rating={4}
           img="https://images-na.ssl-images-amazon.com/images/I/71mYRzElTAL._SL1500_.jpg"
         />
@@ -33,21 +33,21 @@ const Home = () => {
         <Product
           id="12313131"
           title="Voroly Heavy Duty Automatically Shut Off Car Air Compressor Tyre Inflators Pump Digital with Puncture Repair Kit and Carry Case"
-          price={191.96}
+          price={50.96}
           rating={4}
           img="https://images-na.ssl-images-amazon.com/images/I/61gKxUoGGGL._SL1328_.jpg"
         />
         <Product
           id="12313132"
           title="Behringer QX2442USB 24-Channel Mixer"
-          price={191.96}
+          price={200.96}
           rating={4}
           img="https://images-na.ssl-images-amazon.com/images/I/71BD97dkHnL._SL1000_.jpg"
         />
         <Product
           id="12313133"
           title="Capital (Das Capital): Includes Vol.1,2,3 Paperback – 1 November"
-          price={191.96}
+          price={10}
           rating={4}
           img="https://images-na.ssl-images-amazon.com/images/I/51CjHX05K9L._SX327_BO1,204,203,200_.jpg"
         />

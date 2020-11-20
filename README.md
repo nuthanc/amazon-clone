@@ -38,3 +38,8 @@ console.log(...state.basket);
 // {id: "12313131", title: "Voroly Heavy Duty Automatically Shut Off Car Air C…p Digital with Puncture Repair Kit and Carry Case", img: "https://images-na.ssl-images-amazon.com/images/I/61gKxUoGGGL._SL1328_.jpg", price: 191.96, rating: 4}
 // {id: "12313131"img: "https://images-na.ssl-images-amazon.com/images/I/61gKxUoGGGL._SL1328_.jpg"price: 191.96rating: 4title: "Voroly Heavy Duty Automatically Shut Off Car Air Compressor Tyre Inflators Pump Digital with Puncture Repair Kit and Carry Case"__proto__: Object {id: "12313132", title: "Behringer QX2442USB 24-Channel Mixer", img: "https://images-na.ssl-images-amazon.com/images/I/71BD97dkHnL._SL1000_.jpg", price: 191.96, rating: 4}
 ```
+
+### External npm 
+```sh
+npm i react-currency-format
+```
