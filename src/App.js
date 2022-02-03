@@ -14,7 +14,7 @@ function App() {
           <Checkout />
         </Route>
         <Route path="/login">
-          <h1>This is the login page</h1>
+          <Login />
         </Route>
         <Route path="/">
           <Header />
